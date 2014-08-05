@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css" >
+		<link rel="stylesheet" href="style/slider.css" type="text/css">
+		<link rel="stylesheet" href="style/coin-slider-styles.css" type="text/css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script type="text/javascript" src="javascript/coin-slider.js"></script>
+		<script type="text/javascript" src="javascript/coin-slider.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#coin-slider').coinslider({ width: 900, navigation: false, delay: 5000 });
+			});
+		</script>
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="menu">
+		<div id='cssmenu'>
+			<img src="style/images/logo.jpg" height="100px">
+			<ul>
+				<li class='active'><a href='index.html'><span>Inicio</span></a></li>
+				<li class='last'><a href='#'><span>Quiénes Somos</span></a></li>
+				<li class='last'><a href='#'><span>Equipo Profesional</span></a></li>
+				<li class='last'><a href='#'><span>Servicios Kinesiología</span></a></li>
+				<li class='last'><a href='#'><span>Convenios Isapre</span></a></li>
+				<li class='last'><a href='#'><span>Alianzas</span></a></li>
+				<li class='last'><a href='#'><span>Contacto</span></a></li>
+			</ul>
+		</div>
+		<div id="imagenbanner" >
+			<div id="coin-slider" >
+				<a href="#"><img src="style/images/h1.jpg" title="#caption0">
+				</a>
+				<a href="#"><img src="style/images/h2.jpg" title="#caption1">
+				</a>
+				<a href="#"><img src="style/images/h3.jpg" title="#caption2">
+				</a>
+				<a href="#"><img src="style/images/h4.jpg" title="#caption3">
+				</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	</body>
+</html>
+
